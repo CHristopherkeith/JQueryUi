@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI 日期选择器（Datepicker） - 显示月份 &amp; 年份菜单</title>
+  <link rel="stylesheet" href="jquery-ui.min.css">
+  <!-- <script src="jquery.min.js"></script> -->
+  <script src="jquery-2.2.2.js"></script>
+  <script src="jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+ 
+<p>日期：<input type="text" id="datepicker"></p>
+ 
+ 
+</body>
+<script>
+$( "#datepicker" ).datepicker({
+  changeMonth: true,
+  changeYear: true
+});
+</script>
+</html>
